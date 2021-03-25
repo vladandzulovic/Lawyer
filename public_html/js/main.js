@@ -2,6 +2,25 @@ $(document).ready(function () {
 
 
 
+if($('.team-slider').length > 0){
+    $('.team-slider').owlCarousel({
+        dots: true,
+        nav: false,
+        responsive:{
+            0:{
+                items: 1,
+                margin: 0
+            },
+            992:{
+                items: 2,
+                margin: 50
+            }
+        }
+    });
+}
+
+
+
 
 // animation start
     function animation() {

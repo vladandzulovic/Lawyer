@@ -44,4 +44,8 @@ $spacers: (
   8: $spacer * 4,
   9: $spacer * 4.5,
   10: $spacer * 5,
-) !default;
+);
+
+$navbar-light-color:   #1e1e1e;
+$navbar-light-hover-color:  $primary;
+$navbar-light-active-color:  $primary;

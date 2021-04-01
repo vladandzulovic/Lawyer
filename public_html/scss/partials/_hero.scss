@@ -1,5 +1,7 @@
 
 $category-color: $primary;
+
+$info-hero-color: #586c88;
 .hero{
     padding: 133px 0;
     background-position: right center;
@@ -11,19 +13,19 @@ $category-color: $primary;
         max-width: 558px;
         background-color: rgba($white, 0.7);
         padding: 20px;
-        
+
         .hero-title{
             font-size: 5.1rem;
             line-height: 6.4rem;
         }
-        
-        
+
+
         .news-info{
             .news-categories{
                 a{
                     text-transform: uppercase;
                     color:$category-color;
-                    
+
                 }
             }
             span{
@@ -34,7 +36,17 @@ $category-color: $primary;
                 color:$category-color;
             }
         }
-        
+
+        .info-group{
+            span{
+                color: $info-hero-color;
+                font-size: 2rem;
+            }
+            a{
+                color: $info-hero-color;
+            }
+        }
+
     }
-    
+
 }

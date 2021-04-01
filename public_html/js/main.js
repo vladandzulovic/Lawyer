@@ -100,7 +100,15 @@ if($('.team-slider').length > 0){
 
 
 
+function checkHeader(){
+    let headerHeight = $('header').outerHeight();
+    $('body').css('padding-top', `${headerHeight}px`);
+}
 
+    checkHeader();
+    $(window).resize(function(){
+        checkHeader();
+    });
 
 
 

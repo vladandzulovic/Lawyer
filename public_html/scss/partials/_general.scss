@@ -12,7 +12,16 @@ body{
     font-family: $body-font;
     font-weight: 300;
     line-height: 2.5rem;
+    padding-top: 52px;
+    @media(min-width:768px){
+        padding-top: 57px;
+    }
+    @media(min-width:992px){
+        padding-top: 107px;
+    }
 }
+
+
 
 .form-group{
     margin-bottom: 2rem;

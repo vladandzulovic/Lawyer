@@ -1,0 +1,47 @@
+.services{
+    @media(min-width:992px){
+        padding: 80px 0 !important;
+    }
+}
+
+
+
+.service-item{
+    margin-bottom: 3rem;
+    .service-item-header{
+        align-items: center;
+        .service-item-icon{
+            flex: 0 0 83px;
+        }
+        .service-item-title{
+            flex: 1;
+            line-height: 2.2rem;
+            letter-spacing: 1.14px;
+            font-weight: 500;
+            color:$body-color;
+            padding-left: 10px;
+            .services.bg-info &{
+                color:#fff;
+            }
+        }
+    }
+    .service-item-description{
+        color:#f5f5f5;
+        display: none;
+        .services.bg-info &{
+            display: block;
+        }
+    }
+    .read-more{
+        font-weight: 500;
+        line-height: 1.7rem;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        display: none;
+        
+        .services.bg-info &{
+            display: block;
+        }
+    }
+    
+}

@@ -24,9 +24,17 @@ $(document).ready(function () {
     $(window).scroll(function () {
         animation();
     });
+    
 // animation end
 
 
+
+
+$('.navbar-nav').on('click', '.toggle-submenu', function(e){
+    e.preventDefault();
+    $(this).toggleClass('fa-plus fa-minus');
+    $(this).parent().next('.submenu').slideToggle();
+});
 /*
 
     if ($('.contact-form').length > 0) {

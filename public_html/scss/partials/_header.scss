@@ -1,9 +1,83 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 30, 2023, 2:44:58 PM
-    Author     : frontend
-*/
-
+header{
+    .navbar-brand{
+        max-width: 90px;
+        img{
+            display: block;
+        }
+    }
+    
+    .navbar-toggler{
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    .navbar-nav{
+        border-bottom: 1px solid $primary;
+        @media(min-width:992px){
+            border-bottom: none;
+        }
+        .nav-item{
+            &:not(:last-of-type){
+                border-bottom: 1px solid $primary;
+                @media(min-width:992px){
+                    border-bottom: none;
+                    margin-right: 50px;
+                }
+            }
+            
+            @media(min-width:992px){
+                position: relative;
+                &:hover{
+                    .submenu{
+                        opacity: 1;
+                        transform: rotateX(0) perspective(1000px);
+                    }
+                }
+            }
+            .nav-link{
+                font-weight: 500;
+                font-size: 1.6rem;
+                line-height: 2rem;
+                text-transform: capitalize;
+                padding: 10px;
+                position: relative;
+                
+                .toggle-submenu{
+                    position: absolute;
+                    top:0;
+                    right:0;
+                    width: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    @media(min-width:992px){
+                        display: none;
+                    }
+                }
+            }
+            
+            
+            .submenu{
+                padding-left: 20px;
+                display: none;
+                transition: 0.5s linear;
+                @media(min-width:992px){
+                    display: block !important;
+                    transform:rotateX(-90deg);
+                    transform-origin: 0 0;
+                    opacity: 0;
+                    position: absolute;
+                    top:100%;
+                    left: 0;
+                    padding-left: 0px;
+                    
+                }
+                .nav-link{
+                    @media(min-width:992px){
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}

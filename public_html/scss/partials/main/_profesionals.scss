@@ -1,0 +1,32 @@
+.profesionals{
+    padding: 67px 0 61px;
+    .profesional-slider-item{
+        .profesional-slider-item-data{
+            @media(min-width:576px){
+                flex: 0 0 50%;
+            }
+            .profesional-slider-item-title{
+                font-size: 2.2rem;
+                font-weight: 500;
+                line-height: 2.7rem;
+            }
+            p{
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+
+            .linkedin{
+                font-size: 3rem;
+                color:#586c88;
+            }
+        }
+        .profesional-slider-item-image{
+            @media(min-width:576px){
+                flex: 0 0 45%;
+            }
+        }
+
+    }
+}

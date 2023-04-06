@@ -35,6 +35,33 @@ $('.navbar-nav').on('click', '.toggle-submenu', function(e){
     $(this).toggleClass('fa-plus fa-minus');
     $(this).parent().next('.submenu').slideToggle();
 });
+
+
+if($('.profesionals-slider').length > 0){
+    $('.profesionals-slider').owlCarousel({
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:2,
+                margin:20
+            },
+            992:{
+                items:2,
+                margin:50
+            },
+            
+            1200:{
+                items:2,
+                margin:72
+            }
+        }
+    });
+}
+
+
+
 /*
 
     if ($('.contact-form').length > 0) {

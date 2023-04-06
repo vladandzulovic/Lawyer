@@ -1,0 +1,14 @@
+.about{
+    padding: 70px 0;
+    @media(min-width:992px){
+        padding: 112px 0 123px;
+    }
+    
+    .about-content{
+        h2{
+            font-size: 3.6rem;
+            line-height: 1;
+            margin-bottom: 1.5rem;
+        }
+    }
+}

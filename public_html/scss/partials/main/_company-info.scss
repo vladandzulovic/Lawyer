@@ -1,8 +1,13 @@
 .company-info{
     padding: 75px 0 69px;
-    
+    .hero-section &{
+        padding: 0;
+    }
     .company-info-item{
         color:#586C88;
         font-weight: 400;
+        .hero-section &{
+            justify-content: flex-start !important;
+        }
     }
 }

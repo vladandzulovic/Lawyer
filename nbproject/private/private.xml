@@ -5,13 +5,15 @@
         <group>
             <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/scss/partials/main/_hero.scss</file>
             <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/scss/partials/main/_services.scss</file>
+            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/services.html</file>
+            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/scss/partials/main/_service-content.scss</file>
             <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/scss/partials/_main.scss</file>
-            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/scss/partials/_header.scss</file>
-            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/js/main.js</file>
-            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/bootstrap/scss/_variables.scss</file>
+            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/news.html</file>
+            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/single-service.html</file>
+            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/scss/partials/main/_news.scss</file>
             <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/scss/partials/_overide-bootstrap.scss</file>
-            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/index.html</file>
-            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/scss/partials/_general.scss</file>
+            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/scss/partials/main/_about.scss</file>
+            <file>file:/home/frontend/Desktop/workspace/s45-Lawyer/public_html/about.html</file>
         </group>
     </open-files>
 </project-private>

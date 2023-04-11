@@ -1,0 +1,39 @@
+.team{
+    padding: 64px 0 83px;
+    
+    .team-member{
+        &:hover{
+            img{
+                transform: scale(1.1);
+            }
+        }
+        img{
+            transition: 0.3s linear;
+        }
+        .linkedin{
+            position: absolute;
+            bottom: 1.5rem;
+            right:1.5rem;
+            font-size: 3rem;
+            color:#fff;
+            text-shadow: 0 0 2px #000;
+            transition: 0.3s linear;
+            &:hover{
+                color:#ccc;
+            }
+        }
+        
+        .team-member-title{
+            a{
+                color:$body-color;
+                font-size: 2.2rem;
+                line-height: 2.7rem;
+            }
+        }
+        .team-member-position{
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+            margin-bottom: 0;
+        }
+    }
+}
